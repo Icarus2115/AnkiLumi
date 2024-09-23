@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anki & Lumis Cabin</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0b0f26;
+            background-image: url('https://www.publicdomainpictures.net/pictures/40000/velka/galaxy-background.jpg');
+            background-size: cover;
+            color: #f0e68c;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f0e68c;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            color: #ffd700;
+        }
+
+        header h1 {
+            font-size: 3em;
+            text-shadow: 0 0 20px #fff, 0 0 30px #f0e68c, 0 0 40px #f0e68c;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .photo-gallery img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #f0e68c;
+            box-shadow: 0 0 10px #fff, 0 0 20px #ffd700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #f0e68c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#photos">Photos</a>
+        <a href="#explore">Explore</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Welcome to Anki & Lumis Cabin</h1>
+        <p>A mystical retreat from a magical time.</p>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Anki & Lumis Cabin is a place where the universe comes alive with shimmering galaxies and golden magic. 
+            A perfect hideaway for those seeking serenity, adventure, and a connection to the cosmos. Escape into a world of wonder and tranquility.
+        </p>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos">
+        <h2>Photo Gallery</h2>
+        <div class="photo-gallery">
+            <img src="https://via.placeholder.com/200" alt="Cabin Photo 1">
+            <img src="https://via.placeholder.com/200" alt="Cabin Photo 2">
+            <img src="https://via.placeholder.com/200" alt="Cabin Photo 3">
+        </div>
+    </section>
+
+    <!-- Explore Section -->
+    <section id="explore">
+        <h2>Explore the Mystical Universe</h2>
+        <p>
+            Discover the wonders of the galaxy with our guided tours, storytelling by the stars, and more. Every visit is a journey beyond the ordinary.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Feel free to reach out for more information or to book a stay at Anki & Lumis Cabin. <br>
+            Email: info@anki-lumis-cabin.com | Phone: +123 456 7890
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Anki & Lumis Cabin - All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
